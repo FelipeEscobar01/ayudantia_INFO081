@@ -1,6 +1,5 @@
 ## **Contacto:**
----
-  
+
 ### **🏵️ Discord**
 
 ```
@@ -13,6 +12,8 @@ _(porfavor no me manden correos)_
 ```
 felipe.escobar01@alumnos.uach.cl
 ```
+
+---
 
 ### **¿Cuándo puedo responder?**
 
