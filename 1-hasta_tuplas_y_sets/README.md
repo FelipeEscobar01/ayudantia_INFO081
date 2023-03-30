@@ -1,5 +1,4 @@
 ## 🍉 Primer ejercicio
----
 
 Escriba una funcion que **reciba dos sets**
 
@@ -15,7 +14,6 @@ La funcion **retornará la lista ordenada**.
 <br/>
 
 ## 🍉 Segundo ejercicio
----
 
 Escriba la funcion:
 
@@ -30,7 +28,6 @@ Esta funcion **recibe una tupla, la retorna invertida**.
 <br/>
 
 ## 🍉 Tercer ejercicio
----
 
 Escriba la funcion:
 
@@ -45,7 +42,6 @@ Esta funcion **recibe dos enteros** retorna el **máximo comun divisor entre los
 <br/>
 
 ## 🍉 Cuarto ejercicio
----
 
 Cree una **tupla** de **20 enteros aleatorios entre 1 y 10**, luego escriba la
 siguiente funcion: 
