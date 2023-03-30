@@ -22,8 +22,7 @@ def revertir_tupla(tupla: tuple) -> tuple:
 ```
 Esta funcion **recibe una tupla, la retorna invertida**.
 
-### **El desafio es hacer la funcion con solo el return, ni una linea más**.
-### **Pista: 🎂 🔪 🍰**
+### **El desafio es hacer la funcion con solo el return, ni una linea más. Una pista: 🎂 🔪 🍰**
 
 <br/>
 
