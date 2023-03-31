@@ -14,6 +14,5 @@ def main():
     print(son_pitagoricos(lista_input[0], lista_input[1], lista_input[2]))
 
 
-
 if __name__ == "__main__":
     main()
