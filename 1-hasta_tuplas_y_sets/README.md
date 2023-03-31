@@ -1,6 +1,6 @@
 
 ---
-### _Los primeros cuatro ejercicios tendrán la solución post-ayudantia o en la misma si alcanza el tiempo, los últimos dos, piensenlos nomas..._
+### _Los primeros cuatro ejercicios tendrán la solución post-ayudantia o en la misma si alcanza el tiempo, los últimos dos desafiense ustedes a hacer, aunque obvio cualquier duda preguntenme..._
 ---
 
 ## 🍉 **Ejercicio 1**
