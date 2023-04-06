@@ -3,7 +3,9 @@
 ### _Los primeros tres ejercicios tendrán la solución post-ayudantia o en la misma si alcanza el tiempo, el último desafiense ustedes a hacer, aunque obvio cualquier duda preguntenme..._
 ---
 
-#### Una cortita aclaración antes, deje de poner en **negrita** y _cursiva_ ciertos apartados de cada ejercicio porque siento que derrota un objetivo de aprendizaje que es el saber extraer la información correcta de un enunciado y hacer lo que se pide y no otra cosa. 
+<br/>
+
+### Una cortita aclaración antes, deje de poner en **negrita** y _cursiva_ ciertos apartados de cada ejercicio porque siento que derrota un objetivo de aprendizaje que es el saber extraer la información correcta de un enunciado y hacer lo que se pide y no otra cosa. 
 
 <br/>
 
@@ -77,14 +79,13 @@ La Facultad de Ciencias de la Ingeniería se encuentra implementando un sistema 
 Por otra parte, se mantiene un diccionario con las asignaturas inscritas por cada estudiante, el cual tiene la siguiente forma:
 
 ```
-    estudiantes = {'Juan Perez': ['INFO081', 'INFO088', 'BAIN075'],
+    estudiantes = {'Juan Perez': ['INFO081', 'INFO088', 'BAIN075', 'BAIN065'],
                    'Claudia Benavides': ['BAIN067', 'BAIN065', 'INFO088'],
                    'Xavi del Escoval': ['BAIN077', 'BAIN075', 'INFO081'],
                    'Bastian Gajardo': ['BAIN077', 'BAIN079', 'INFO088'],
                    'Jorge Maturana': ['INFO088', 'INFO081', 'BAIN077'],
-                   'Josefina Vergara': ['BAIN079', 'BAIN065']}
+                   'Josefina Vergara': ['BAIN079', 'BAIN065', 'BAIN075']}
 ```
-
 
 ### **Con el objetivo de detectar topes de horario, se le solicita lo siguiente:**
 
@@ -104,6 +105,25 @@ def detecta_conflictos(estudiante: str, ramos_inscritos: list, asignaturas: dict
 
 Que recibe el nombre de un estudiante, una lista con los nombres de las asignaturas que inscribió, y el diccionario con los horarios de todas las asignaturas, y retorna una tupla con los horarios en los cuales ese estudiante tiene tiene tope de horario.
 
+Salida esperada:
+
+```
+Conflictos de Juan Perez:
+('JU1', 'VI1')
+Conflictos de Claudia Benavides:
+('VI1',)
+Conflictos de Xavi del Escoval:
+('JU1',)
+Conflictos de Bastian Gajardo:
+()
+Conflictos de Jorge Maturana:
+()
+Conflictos de Josefina Vergara:
+('MA1', 'JU1')
+```
+
+<br/>
+
 ## 🍉 **Ejercicio 4**
 
 Tengo el siguiente diccionario:
@@ -120,3 +140,28 @@ Tengo el siguiente diccionario:
                                 'Pregunta 9': ('D', 'D', 'D', 'D', 'D'),
                                 'Pregunta 10': ('A', 'A', 'B', 'C', 'X')}
 ```
+
+Cree la función:
+
+```
+def alternativas_marcadas(alternativas_estudiantes: dict) -> dict:
+```
+
+Esta función debe retornar las alternativas marcadas de forma independiente, si se marco 2 veces la alternativa A, debiese retornar solo una A y asi consecutivamente, recordar que las X son estudiantes que no marcaron ninguna alternativa, por lo que no tienen que ser incluidas en la salida de nuestro programa.
+
+Salida esperada:
+
+```
+Pregunta 1 :  ('A', 'B', 'C')
+Pregunta 2 :  ('A', 'B', 'D', 'E')
+Pregunta 3 :  ('A', 'B')
+Pregunta 4 :  ('A', 'B', 'C', 'D')
+Pregunta 5 :  ('A', 'B', 'C', 'D', 'E')
+Pregunta 6 :  ('E',)
+Pregunta 7 :  ('A', 'B', 'C', 'E')
+Pregunta 8 :  ('A', 'D', 'E')
+Pregunta 9 :  ('D',)
+Pregunta 10 :  ('A', 'B', 'C')
+```
+
+### **Como se puede ver las alternativas estan ordenadas...**
