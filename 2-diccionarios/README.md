@@ -1,7 +1,11 @@
 
 ---
-### _Los primeros tres ejercicios tendrán la solución post-ayudantia o en la misma si alcanza el tiempo, el último (sin contar "Topes de Horario") desafiense ustedes a hacer, aunque obvio cualquier duda preguntenme..._
+### _Los primeros tres ejercicios tendrán la solución post-ayudantia o en la misma si alcanza el tiempo, el último desafiense ustedes a hacer, aunque obvio cualquier duda preguntenme..._
 ---
+
+#### Una cortita aclaración antes, deje de poner en **negrita** y _cursiva_ ciertos apartados de cada ejercicio porque siento que derrota un objetivo de aprendizaje que es el saber extraer la información correcta de un enunciado y hacer lo que se pide y no otra cosa. 
+
+<br/>
 
 ## 🍉 **Ejercicio 1**
 
@@ -11,11 +15,52 @@ Escriba una función:
 def elementos_que_comparten(lista1: list, lista2: list) -> tuple:
 ```
 
-El nombre de la función, lo explica todo.
+El nombre de la función se explica a ella misma.
+
+(Definir las listas con un largo 10 y poner valores aleatorios entre 1 y 50)
 
 <br/>
 
-# **Topes de Horario**
+## 🍉 **Ejercicio 2**
+
+Tengo el siguiente diccionario:
+
+```
+    signos = {'Aries':       ((3, 21), (4, 20)),
+              'Tauro':       ((4, 21), (5, 21)),
+              'Geminis':     ((5, 22), (6, 21)),
+              'Cancer':      ((6, 22), (7, 23)),
+              'Leo':         ((7, 24), (8, 23)),
+              'Virgo':       ((8, 24), (9, 23)),
+              'Libra':       ((9, 24), (10, 23)),
+              'Escorpio':    ((10, 24), (11, 22)),
+              'Sagitario':   ((11, 23), (12, 21)),
+              'Capricornio': ((12, 22), (1, 20)),
+              'Acuario':     ((1, 21), (2, 19)),
+              'Piscis':      ((2, 20), (3, 20))}
+```
+
+Escriba la función:
+
+```
+def determinar_signo_zodiacal(signos: dict, fecha_de_nacimiento: tuple) -> str:
+```
+
+Cabe aclarar que la tupla "fecha_de_nacimiento" tiene el siguiente formato:
+
+```
+(year|month|day)
+```
+
+¡Además pido al usuario que me entregue las tres casillas de información de la tupla!
+
+La salida de la función es unicamente el signo al que pertenece la información almacenada en la tupla.
+
+<br/>
+
+## 🍉 **Ejercicio 3**
+
+### **Topes de Horario**
 
 La Facultad de Ciencias de la Ingeniería se encuentra implementando un sistema para optimizar la creación de horarios para asignaturas que se dictan en el Campus Miraflores. La implementación mantiene por una parte un diccionario con los horarios de cada asignatura, el cual tiene el siguiente aspecto:
 
@@ -41,7 +86,7 @@ Por otra parte, se mantiene un diccionario con las asignaturas inscritas por cad
 ```
 
 
-## Con el objetivo de detectar topes de horario, se le solicita lo siguiente:
+### **Con el objetivo de detectar topes de horario, se le solicita lo siguiente:**
 
 Cree la función:
 
@@ -58,3 +103,20 @@ def detecta_conflictos(estudiante: str, ramos_inscritos: list, asignaturas: dict
 ```
 
 Que recibe el nombre de un estudiante, una lista con los nombres de las asignaturas que inscribió, y el diccionario con los horarios de todas las asignaturas, y retorna una tupla con los horarios en los cuales ese estudiante tiene tiene tope de horario.
+
+## 🍉 **Ejercicio 4**
+
+Tengo el siguiente diccionario:
+
+```
+    alternativas_estudiantes = {'Pregunta 1': ('A', 'A', 'C', 'A', 'B'),
+                                'Pregunta 2': ('D', 'E', 'D', 'A', 'B'),
+                                'Pregunta 3': ('A', 'A', 'A', 'A', 'B'),
+                                'Pregunta 4': ('C', 'B', 'A', 'X', 'D'),
+                                'Pregunta 5': ('E', 'C', 'B', 'A', 'D'),
+                                'Pregunta 6': ('E', 'E', 'E', 'E', 'E'),
+                                'Pregunta 7': ('A', 'A', 'B', 'C', 'E'),
+                                'Pregunta 8': ('E', 'X', 'A', 'D', 'A'),
+                                'Pregunta 9': ('D', 'D', 'D', 'D', 'D'),
+                                'Pregunta 10': ('A', 'A', 'B', 'C', 'X')}
+```
