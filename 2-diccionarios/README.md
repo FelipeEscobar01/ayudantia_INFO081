@@ -3,9 +3,7 @@
 ### _Los primeros tres ejercicios tendrán la solución post-ayudantia o en la misma si alcanza el tiempo, el último desafiense ustedes a hacer, aunque obvio cualquier duda preguntenme..._
 ---
 
-<br/>
-
-### Una cortita aclaración antes, deje de poner en **negrita** y _cursiva_ ciertos apartados de cada ejercicio porque siento que derrota un objetivo de aprendizaje que es el saber extraer la información correcta de un enunciado y hacer lo que se pide y no otra cosa. 
+ Una cortita aclaración antes, deje de poner en **negrita** y _cursiva_ ciertos apartados de cada ejercicio porque siento que derrota un objetivo de aprendizaje que es el saber extraer la información correcta de un enunciado y hacer lo que se pide y no otra cosa. 
 
 <br/>
 
