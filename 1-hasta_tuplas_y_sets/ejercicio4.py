@@ -23,6 +23,7 @@ def encontrar_moda(datos: tuple) -> int:
     for i in range(1, len(datos_sin_repetir)):
         dato_actual_se_repite = datos.count(datos_sin_repetir[i])
         if (dato_actual_se_repite > mayores_repeticiones):
+            mayores_repeticiones = dato_actual_se_repite
             moda = datos_sin_repetir[i]
     return moda
 
