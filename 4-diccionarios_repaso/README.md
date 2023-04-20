@@ -21,8 +21,6 @@ if __name__ == "__main__":
 
 ## 🍉 **Ejercicio 2**
 
-<br/>
-
 ##### **Fuente: Prueba Nº1 2022**
 
 <br/>
@@ -143,8 +141,6 @@ La salida esperada es:
                                                               
 ## 🍉 **Ejercicio 3**
                                                             
-<br/>
-
 ##### **Fuente: Segunda Evaluación 2022**
                                                               
 <br/>
