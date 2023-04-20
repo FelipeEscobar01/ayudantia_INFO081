@@ -87,7 +87,7 @@ cursos = {"c-1" : ("Cálculo 1", 6, "Básico", []),
           "p-2" : ("Progra 2", 6, "Básico", ["p-1","c-1"]),
           "bd-1" : ("Bases de Datos", 5, "Licenciatura", ["p-2","c-1"]),
           "so-1" : ("Sistemas Operativos", 5, "Licenciatura", ["p-2","bd-1"]),
-          "ps-1" : ("Proyectos de software", 6, "Profesional", ["c-2", "so-1"])
+          "ps-1" : ("Proyectos de Software", 6, "Profesional", ["c-2", "so-1"])
          }
 matriculas = [("1-1", "c-1", 2017, 1, 2.4, "Reprobado"),
               ("1-1", "c-1", 2017, 2, 5.2, "Aprobado"), 
