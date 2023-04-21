@@ -12,7 +12,7 @@ def consulta_baul(baul: dict) -> None:
     while (True):
         print(f"Estan almacenados {len(baul)} valores de fibonacci")
         accede = int(input("¿A qué valor quiere acceder?\n> "))
-        if (accede < 1 or accede > len(baul)):
+        if (accede <= 0 or accede > len(baul)):
             break 
         print(f"El fibonacci numero {accede} es {sum(baul[accede])}")
         
