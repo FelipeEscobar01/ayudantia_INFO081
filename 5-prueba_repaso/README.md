@@ -60,7 +60,7 @@ def descifra_mensaje(palabra: dict) -> None:
 
 ## 🍉 **Ejercicio 3**
 
-##### **Fuente: Prueba Nª1 2022** 
+##### **Fuente: Prueba Nº1 2022**
 
 <br/>
 
