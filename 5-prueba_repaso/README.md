@@ -64,7 +64,7 @@ def descifra_mensaje(palabra: dict) -> None:
 
 <br/>
 
-Escriba un programa en Python que solicite el ingreso de dos números: n y d, donde n es un número entero positivo que que está compuesto por 5 o más dígitos (0..9) (valide que n sea correcto) y d es un número de un dígito (0..9) (valide que d sea correcto). 
+Escriba un programa en Python que solicite el ingreso de dos números: n y d, donde n es un número entero positivo que está compuesto por 5 o más dígitos (0..9) (valide que n sea correcto) y d es un número de un dígito (0..9) (valide que d sea correcto). 
 
 Implemente una función: 
 
