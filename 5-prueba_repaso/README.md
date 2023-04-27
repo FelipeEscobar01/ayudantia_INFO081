@@ -69,7 +69,7 @@ Escriba un programa en Python que solicite el ingreso de dos números: n y d, do
 Implemente una función: 
 
 ```
-def extrae_digito(n: int, d:int) -> int: 
+def extrae_digito(n: int, d: int) -> int: 
 ```
 
 La cual retorna el número generado luego de eliminar del número n todos los dígitos que son iguales a d. Muestre en pantalla el número generado en orden inverso.
