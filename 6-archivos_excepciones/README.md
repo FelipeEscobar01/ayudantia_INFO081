@@ -7,18 +7,22 @@
 
 Tengo una empresa que separa el cuanto se ha vendido cada dia durante el ultimo mes en un archivo, este archivo esta distribuido de la siguiente manera, las columnas me indican que division de la empresa responsable de ese numero de ventas y las filas me indican cuantas ventas fueron ese dia.
 
+<br/>
+
 ### **columnas -> divisiones [0..n]**
 ### **filas -> ventas en el dia [1..n]**
+
+<br/>
 
 Por ejemplo, viendolo como una matriz de python, la posicion "[0, 0]" me indicara cuanto vendio la division 0, el dia 1.
 
 En base a esto responda las siguientes preguntas:
 
-### **1) ¿Cual es la division que más ha vendido durante el último mes?**
+**1) ¿Cual es la division que más ha vendido durante el último mes?**
 
-### **2) ¿Cual es la division que menos ha vendido durante el último mes?**
+**2) ¿Cual es la division que menos ha vendido durante el último mes?**
 
-### **3) ¿Que dia vendieron mas las divisiones en conjunto?**
+**3) ¿Que dia vendieron mas las divisiones en conjunto?**
 
 <br/>
 
@@ -26,18 +30,22 @@ En base a esto responda las siguientes preguntas:
 
 Tengo una farmacia que guarda cada mes, un archivo por dia indicando cuanto stock se sumo de 'x' remedio al stock general (No lo sabemos, solo sabemos cuanto se sumo), los archivos estan distribuidos de esta manera:
 
+<br/>
+
 ### **Remedio1-Stock_nuevo1**
 ### **Remedio2-Stock_nuevo1**
 ### **...**
 ### **RemedioN-Stock_nuevoN**
 
+<br/>
+
 En base a esto desarrolle lo siguiente:
 
-### **1) Escriba en un nuevo archivo, cuantos remedios llegaron de cada uno durante el mes**
+**1) Escriba en un nuevo archivo, cuantos remedios llegaron de cada uno durante el mes**
 
-### **2) ¿Qué dia fue el que llego mas Venlafaxina?**
+**2) ¿Qué dia fue el que llego mas Venlafaxina?**
 
-### **3) ¿Qué dia fue el que llego menos Venlafaxina?**
+**3) ¿Qué dia fue el que llego menos Venlafaxina?**
 
 <br/>
 
