@@ -8,18 +8,18 @@
 Tengo una empresa que separa el cuanto se ha vendido cada dia durante el ultimo mes en un archivo, este archivo esta distribuido de la siguiente manera, las columnas me indican que division de la empresa responsable de ese numero de ventas y las filas me indican cuantas ventas fueron ese dia.
 
 ```
-      division
+        division
 
-     0 1 2 . . . n
+      0 1 2 . . . n
 
-   1 "-"-"-"-"-"-"
-d  2 "-"-"-"-"-"-"
-i  . "-"-"-"-"-"-"
-a  . "-"-"-"-"-"-"
-   . "-"-"-"-"-"-"
-   n "-"-"-"-"-"-"
+    1 "-"-"-"-"-"-"
+d   2 "-"-"-"-"-"-"
+i   . "-"-"-"-"-"-"
+a   . "-"-"-"-"-"-"
+    . "-"-"-"-"-"-"
+    n "-"-"-"-"-"-"
 
-       ventas
+         ventas
 ```
 _Dias y division estas implicitos, en realidad solo estan los datos de ventas_
 
