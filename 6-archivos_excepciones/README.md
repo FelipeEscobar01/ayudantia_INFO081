@@ -100,3 +100,13 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+
+# **Archivos generados por mi**
+
+### **Ejercicio 1**
+
+https://drive.google.com/file/d/1XCcU5UiXPcizX7Rhj33eEhMMV7fjMxOe/view?usp=share_link
+
+### **Ejercicio 2**
+
+https://drive.google.com/file/d/1TWpUNUafkSFJ6IkdEICsqbV8gVwmwgh8/view?usp=share_link
