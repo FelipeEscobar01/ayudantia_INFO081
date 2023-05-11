@@ -7,8 +7,16 @@
 
 Tengo una empresa que separa el cuanto se ha vendido cada dia durante el ultimo mes en un archivo, este archivo esta distribuido de la siguiente manera, las columnas me indican que division de la empresa responsable de ese numero de ventas y las filas me indican cuantas ventas fueron ese dia.
 
-### columnas -> divisiones [0..n]
-### filas -> ventas en el dia [1..n]
+```
+division  0 1 2 . . . n 
+       d  1-"-"-"-"-"-" 
+       i  2
+       a  .  
+          .
+          .
+          n
+```
+_(implicito)_
 
 Por ejemplo, viendolo como una matriz de python, la posicion "[0, 0]" me indicara cuanto vendio la division 0, el dia 1.
 
