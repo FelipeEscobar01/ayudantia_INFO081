@@ -8,15 +8,20 @@
 Tengo una empresa que separa el cuanto se ha vendido cada dia durante el ultimo mes en un archivo, este archivo esta distribuido de la siguiente manera, las columnas me indican que division de la empresa responsable de ese numero de ventas y las filas me indican cuantas ventas fueron ese dia.
 
 ```
-division  0 1 2 . . . n 
-       d  1-"-"-"-"-"-" 
-       i  2
-       a  .  
-          .
-          .
-          n
+      division
+
+     0 1 2 . . . n
+
+   1 "-"-"-"-"-"-"
+d  2 "-"-"-"-"-"-"
+i  . "-"-"-"-"-"-"
+a  . "-"-"-"-"-"-"
+   . "-"-"-"-"-"-"
+   n "-"-"-"-"-"-"
+
+       ventas
 ```
-_(implicito)_
+_Dias y division estas implicitos, en realidad solo estan los datos de ventas_
 
 Por ejemplo, viendolo como una matriz de python, la posicion "[0, 0]" me indicara cuanto vendio la division 0, el dia 1.
 
