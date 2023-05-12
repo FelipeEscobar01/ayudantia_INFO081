@@ -2,9 +2,10 @@ import os
 
 
 def main():
+    nombre_archivo = "01-04-2023"
     menor_venta = 0
     try:
-        with open(f"01-04-2023", 'r') as archivo:
+        with open(nombre_archivo, 'r') as archivo:
             for x, line in enumerate(archivo):
                 if (x == 8):    # Posicion Venlafaxina
                     texto = line.strip()
