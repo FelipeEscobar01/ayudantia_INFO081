@@ -3,6 +3,10 @@
 ### _Para hacer los ejercicios propongo dos formas, hacer uno mismo los archivos (son aleatorios), o descargar aquellos que yo generé, ¡dejaré el codigo para la primera opcion y un enlace para la segunda!_
 ---
 
+---
+### **CORRECCIÓN: En el segundo ejercicio me falto añadir la extension del archivo en la string (.txt), funciona igual pero la idea era que la tuviese asi que perdon por eso.**
+---
+
 ## 🥑 **Ejercicio 1**
 
 Tengo una empresa que separa el cuanto se ha vendido cada dia durante el ultimo mes en un archivo, este archivo esta distribuido de la siguiente manera, las columnas me indican que division de la empresa responsable de ese numero de ventas y las filas me indican cuantas ventas fueron ese dia.
