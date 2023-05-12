@@ -1,10 +1,8 @@
 
----
-### _Para hacer los ejercicios propongo dos formas, hacer uno mismo los archivos (son aleatorios), o descargar aquellos que yo generé, ¡dejaré el codigo para la primera opcion y un enlace para la segunda!_
----
+**CORRECCIÓN: En el segundo ejercicio me falto añadir la extension del archivo en la string (.txt), funciona igual pero la idea era que la tuviese asi que perdon por eso.**
 
 ---
-### **CORRECCIÓN: En el segundo ejercicio me falto añadir la extension del archivo en la string (.txt), funciona igual pero la idea era que la tuviese asi que perdon por eso.**
+### _Para hacer los ejercicios propongo dos formas, hacer uno mismo los archivos (son aleatorios), o descargar aquellos que yo generé, ¡dejaré el codigo para la primera opcion y un enlace para la segunda!_
 ---
 
 ## 🥑 **Ejercicio 1**
