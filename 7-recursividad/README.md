@@ -33,7 +33,7 @@ Escriba una funcion recursiva que me entregue un valor booleano correspondiente 
 
 ## 🥑 **Ejercicio 5**
 
-Escriba una funcion recursiva que me retorne que valor de la secuencia de fibonacci corresponde aquel que le entregue.
+Escriba una funcion recursiva que me retorne que valor de la secuencia de fibonacci corresponde aquel posicion/indice que le entregue.
 
 **->** _La secuencia de fibonacci consiste en sumar los dos numeros anteriores empezando de 0 y 1_ 
 
