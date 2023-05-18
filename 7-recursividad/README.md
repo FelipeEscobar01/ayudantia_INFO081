@@ -32,7 +32,7 @@ Escriba una funcion recursiva que me retorne que valor de la secuencia de fibona
 ```
 fib: 0  1  1  2  3  5  8  13  21  34 ...
      |  |  |  |  |  |  |  |   |   |
-     1  2  3  4  5  6  7  8   9   10
+     1  2  3  4  5  6  7  8   9   10 ...
 ```
 
 **Visualice en un arbol la ejecucion de esta funcion, ¿como se podria optimizar el algoritmo?**
