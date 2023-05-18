@@ -79,7 +79,7 @@ Busco 1:
     |
     1
 
-SI ESTÁ
+SI ESTÁ, indice = 0
 
 Busco 150:
 
@@ -103,6 +103,6 @@ Busco 150:
     |
     ?
 
-NO ESTÁ
+NO ESTÁ, indice = -1
 ```
 
