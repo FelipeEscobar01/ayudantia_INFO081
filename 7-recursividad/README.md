@@ -57,12 +57,6 @@ La busqueda binaria consiste en, tengo una lista ordenada:
 lista = [1, 4, 8, 10, 20, 50, 80, 95, 120]
 ```
 
-Solo me interesa la mediana que en este caso seria:
-
-```
-mediana = len(lista) // 2
-```
-
 Pregunto tres cosas, dependiendo de la respuesta mi actuar:
 * **¿Es la mediana menor al valor que busco?** Si es asi voy hacia la izquierda (donde estan los menores).
 * **¿Es la mediana igual al valor que busco?** Si es asi retorno la posicion de la mediana.  
