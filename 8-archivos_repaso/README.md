@@ -37,6 +37,8 @@ El siguiente ejemplo muestra la ejecucion de 23 por 48.
 |2|384|no||
 |1|768|**si**|**768**|
 
+**El resultado es 48 + 96 + 192 + 768 = 1104**
+
 <br/>
 
 ## 🥑 **Ejercicio 3**
