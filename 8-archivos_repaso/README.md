@@ -92,7 +92,7 @@ Cree la funcion **normaliza(archivo_entrada: str) -> None:** que tome como entra
 La funcion debe validar **mediante excepciones** que **archivo_entrada** exista y que ninguno de los tres archivos de salida exista.
 
 ---
-¿Y donde estan los archivos? Generenlos en base al archivo de python que deje en la carpeta _ejercicio3_, porfavor intenten entender el codigo lo suficiente para ser capaces de recrearlo, intente comentarlo todo lo posible junto a los otros codigos como esta semana no puedo realizar la ayudantia, y si no quieren, estan los archivos que genere mientras resolvia yo los ejercicios.
+## **¿Y donde estan los archivos? Generenlos en base al archivo de python que deje en la carpeta _"ejercicio3"_, porfavor intenten entender el codigo lo suficiente para ser capaces de recrearlo, intente comentarlo todo lo posible junto a los otros codigos como esta semana no puedo realizar la ayudantia, y si no quieren, estan los archivos que genere mientras resolvia yo los ejercicios.**
 ---
 
 <br/>
