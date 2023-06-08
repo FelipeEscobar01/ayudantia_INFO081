@@ -1,12 +1,20 @@
 #include <iostream>
 /*
    I/O Stream, osea, flujo de input y output, esta relacionado con la existencia
-   del namespace std en mi codigo.
+   del namespace std en mi codigo:
             ___________
      Input  |         |  Output
       --->  |         |  ---> 
             -----------
             Mi proyecto
+
+    Aunque en realidad nos referimos a un flujo lo que seria medio asi:
+              ______
+        (I)   |    |  (O)
+    ... --->  |    |  --->
+        |     ------     |
+        ------------------
+              Flujo
 */
 #include <cmath> // Para tener acceso a pow(a, b).
 
