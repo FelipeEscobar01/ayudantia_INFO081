@@ -16,6 +16,6 @@ int main()
     volumen = 4.0 / 3 * PI * pow(radio, 3);
 
     cout << "La superficie de la circunferencia es " << superficie;
-    cout << "[cm²], por otro lado el volumen es " << volumen << "[cm²]" << endl;
+    cout << "[cm²], por otro lado el volumen es " << volumen << "[cm³]" << endl;
     return 0;
 }

@@ -56,9 +56,13 @@ int main()
        Se puede evitar hacerlo siguiendo la misma logica de poner siempre
        getline pero ademas la explicacion permite entender mejor el por qué
        hablamos de "iostream".
+
+       ACLARACION: Dice ChatGPT que el programa se terminaria de forma prematura,
+       esto era cuando el codigo no bajaba de el input de fecha_de_nacimiento
+       (no habia más).
     */
 
-    // Ej: Agosto 1998
+    // Ej: Agosto 1999
     cout << "Ingrese su mes y año de nacimiento: ";
     getline(cin, fecha_de_nacimiento);
 
