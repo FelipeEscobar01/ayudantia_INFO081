@@ -12,13 +12,9 @@ Hay que hacer uso de la libreria "cmath" para poder elevar, basta con escribir e
 
 **PD:** _Da igual que valor se use para 𝝅, yo usé 3.141_
 
-<br/>
-
 ## 🍓 **Ejercicio 2**
 
 Lo mismo, solo que haciendo uso de un _**#define**_ en la cabecera del programa o un data type con el "prefijo" _**const**_.
-
-<br/>
 
 ## 🍓 **Ejercicio 3**
 
@@ -26,12 +22,10 @@ Hacer un programa que pregunte por el radio de una esfera en centimetros y luego
 
 **PD:** _Denuevo da igual que valor se use para 𝝅, yo usé 3.141_
 
-<br/>
-
 ## 🍓 **Ejercicio 4**
 
 ---
-### Para este ejercicio por falta de pasar el contenido de estructuras de control se hará uso del metodo _**find**_ de strings, pequeña descripción y una referencia más abajo, además dejare algo parecido para le metodo _**substr**_, por si alguien quisiese hacerlo de manera distinta.
+#### Para este ejercicio por falta de pasar el contenido de estructuras de control se hará uso del metodo _**find**_ de strings, pequeña descripción y una referencia más abajo, además dejare algo parecido para el metodo _**substr**_, por si alguien quisiese hacerlo de manera distinta.
 ---
 
 Hacer un programa que pregunte por:
@@ -52,8 +46,6 @@ Luego imprima una string correspondiente a como lo hubiesemos escrito en un arch
 
 **PD:** _El separador da igual cual se use pero si se va a cambiar ojo con los puntos y guion del RUT_
 
-<br/>
-
 # 🍓 **Referencias**
 
 **cmath**
@@ -66,8 +58,6 @@ Luego imprima una string correspondiente a como lo hubiesemos escrito en un arch
 **const -data type-**
 * https://learn.microsoft.com/en-us/cpp/cpp/const-cpp?view=msvc-170
      
-<br/>
-
 ## std::string.substr(a, b)
 
 ### INPUT
@@ -80,7 +70,7 @@ Luego imprima una string correspondiente a como lo hubiesemos escrito en un arch
 
 [Más info](https://cplusplus.com/reference/string/string/substr/)
 
-## std::string.find(a, b) --> Hay mas argumentos opcionales
+## std::string.find(a, b) -> Hay mas argumentos opcionales
 
 ### INPUT
 
