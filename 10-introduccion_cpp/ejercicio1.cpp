@@ -1,50 +1,22 @@
 #include <iostream>
-/*
-   I/O Stream, osea, flujo de input y output, esta relacionado con la existencia
-   del namespace std en mi codigo:
-            ___________
-     Input  |         |  Output
-      --->  |         |  ---> 
-            -----------
-            Mi proyecto
-
-    Aunque en realidad nos referimos a un flujo lo que seria medio asi:
-              ______
-        (I)   |    |  (O)
-    ... --->  |    |  --->
-        |     ------     |
-        ------------------
-              Flujo
-*/
-#include <cmath> // Para tener acceso a pow(a, b).
+#include <string>
 
 using namespace std;
-/*
-   Las funciones que llame en mi programa y no haya yo definido en el mismo se
-   buscaran en el namespace std, ahorrandome asi el concretar en cada ocasion
-   decir donde sacar la definicion de la funcion que uso (std::cin -> cin o 
-   std::cout -> cout).
-*/
 
-int main()
-/*
-   int main(){}
-    - int, es el tipo de dato que se retornara.
-    - main, nombre con que identificar y llamar a la funcion.
-    - (), aqui irian los argumentos.
-    - {}, dentro van las instrucciones.
-*/
-{
-    float radio;
-    cout << "Radio de circunferencia: "; 
-    cin >> radio;
-
-    const float PI = 3.141;
-    float perimetro, area;
-    perimetro = 2 * PI * radio;
-    area = PI * pow(radio, 2);
-
-    cout << "El perimetro de la circunferencia es " << perimetro; 
-    cout << ", por otro lado el area es " << area << endl;
-    return 0;
+int main(){
+    string palabra;
+    int mediana, i;
+    cout << "Ingrese palabra: "; cin >> palabra;
+    mediana = palabra.length() / 2;
+    if(!(mediana % 2)){
+        for(i = 0; i < mediana; i++)
+            swap(palabra[i], palabra[(palabra.length() - i) - 1]);
+    }
+    else{
+        i = 0;
+        while(i != mediana + 1)
+            swap(palabra[i], palabra[(palabra.length() - i) - 1]);
+    }
+    cout << palabra << endl;
+    return EXIT_SUCCESS;
 }

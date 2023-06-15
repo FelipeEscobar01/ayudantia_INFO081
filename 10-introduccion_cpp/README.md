@@ -1,84 +1,62 @@
+
 ## 🍓 **Ejercicio 1**
 
-Hacer un programa que pregunte por el radio de una circunferencia y luego imprima el perimetro y el area de esta.
+Invertir una string en el lugar.
 
-Hay que hacer uso de la libreria "cmath" para poder elevar, basta con escribir en la cabecera del programa lo siguiente:
-
-```
-#include <iostream> // Ya estaba de antes.
-#include <cmath>
-...
-```
-
-**PD:** _Da igual que valor se use para 𝝅, yo usé 3.141_
+<br/>
 
 ## 🍓 **Ejercicio 2**
 
-Lo mismo, solo que haciendo uso de un _**#define**_ en la cabecera del programa o un data type con el "prefijo" _**const**_.
+Imprimir la secuencia de fibonnacci, hasta cierto rango.
+
+<br/>
+
+## 🍓 **Preguntas**
+
+¿Que resultado daran las siguientes operaciones?
+
+* 9 / 5
+* 9.0 / 5.0
+* 9.0 / 5
+* 9 / 5.0
+
+¿Hay una diferencia si el resultado de la operacion se guarda en una variable de tipo **int** o **float**?
+
+Evalue que sucede para cada operacion almacenando en ambos tipos.
+
+---
+#### Archivo para comprobar resultados arribita _**(type_conversion-explicacion.cpp)**_.
+---
+
+<br/>
 
 ## 🍓 **Ejercicio 3**
 
-Hacer un programa que pregunte por el radio de una esfera en centimetros y luego imprima la superficie y volumen de esta.
+Hacer una calculadora. Tiene que pedirse al usuario una distincion de si se quiere hacer una operacion entre flotantes o no.
 
-**PD:** _Denuevo da igual que valor se use para 𝝅, yo usé 3.141_
+Las minimas operaciones son: **suma, resta, multiplicacion, division**.
 
-## 🍓 **Ejercicio 4**
-
----
-#### Para este ejercicio por falta de pasar el contenido de estructuras de control se hará uso del metodo _**find**_ de strings, pequeña descripción y una referencia más abajo, además dejare algo parecido para el metodo _**substr**_, por si alguien quisiese hacerlo de manera distinta.
----
-
-Hacer un programa que pregunte por:
-
-* Primer nombre y apellido (Juanito Perez)
-* RUT (11.111.111-1)
-* Fecha de nacimiento (Agosto 1999)
-
-**Ojo:** _Asuma que se ingresan los datos con el formato que esta entre parentesis._
-
-Luego imprima una string correspondiente a como lo hubiesemos escrito en un archivo .csv via python, en este caso nos quedaria como:
+Ejemplo de ejecucion:
 
 ```
-(RUT)        (Nom y apel)  (Nacimiento)
-  |               |             |
-11.111.111-1,Juanito_Perez,Agosto_1999
+(1) Suma
+(2) Resta
+(3) Multiplicacion
+(4) Division o division entera
+(5) Elevar / Raiz
+¿Que operacion quiere realizar? 3
+¿Es una operacion entre flotantes? Si quiere usar flotantes ingrese numero != '0': 1
+<----
+Numero 1
+> 4
+Numero 2
+> 2.5
+Resultado: 10
+---->
 ```
 
-**PD:** _El separador da igual cual se use pero si se va a cambiar ojo con los puntos y guion del RUT_
+#### _Una calculadora no se apaga despues de hacer solo una operacion, aunque por lo menos esta no permite acumular los resultados, jejeje_.
 
-# 🍓 **Referencias**
+### **Desafio: que acumule resultados y se limpie el "buffer" a decision del usuario.**
 
-**cmath**
-* https://cplusplus.com/reference/cmath/
-* https://www.programiz.com/cpp-programming/library-function/cmath
-
-**#define**
-* https://cplusplus.com/doc/tutorial/preprocessor/
-
-**const -data type-**
-* https://learn.microsoft.com/en-us/cpp/cpp/const-cpp?view=msvc-170
-     
-## std::string.substr(a, b)
-
-### INPUT
-
-* Siendo 'a' el indice del primer caracter desde donde quiere ser copiada la string y 'b' la extension de la substring.
-
-### OUTPUT
-
-* Se retorna una string (substring de la string original).
-
-[Más info](https://cplusplus.com/reference/string/string/substr/)
-
-## std::string.find(a, b) -> Hay mas argumentos opcionales
-
-### INPUT
-
-* Siendo 'a' la segunda string en donde se quiere buscar y 'b' desde donde empezar a buscar (si no se entrega un valor para 'b' se comienza a buscar desde el indice 0 en adelante).
-
-### OUTPUT
-
-* Se retorna el indice del primer caracter de la string encontrada.
-
-[Más info](https://cplusplus.com/reference/string/string/find/)
-              
+<br/>

@@ -1,21 +1,21 @@
 #include <iostream>
-#include <cmath>
-
-#define PI 3.141
+#include <string>
 
 using namespace std;
 
-int main()
-{
-    float radio;
-    cout << "Radio de circunferencia: "; 
-    cin >> radio;
-
-    float perimetro, area;
-    perimetro = 2 * PI * radio;
-    area = PI * pow(radio, 2);
-
-    cout << "El perimetro de la circunferencia es " << perimetro; 
-    cout << ", por otro lado el area es " << area << endl;
-    return 0;
+int main(){
+    int size, num1, num2, i, res;
+    cout << "Cuantos valores de fibonnacci se desean imprimir: "; cin >> size;
+    num1 = 0;
+    num2 = 1;
+    i = 0;
+    cout << num1 << ' ' << num2 << ' ';
+    while(i++ != size - 1){
+        res = num1 + num2;
+        cout << res << ' ';
+        num1 = num2;
+        num2 = res;
+    }
+    cout << endl;
+    return EXIT_SUCCESS;
 }
