@@ -24,7 +24,7 @@ Evalue que sucede para cada operacion almacenando en ambos tipos.
 #### Archivo para comprobar resultados arribita _**(type_conversion-explicacion.cpp)**_.
 ---
 
-## 🍓 **Ejercicio 4**
+## 🍓 **Ejercicio 3**
 
 Sume todos los digitos impares de un numero. Sin transformar a string el numero.
 
