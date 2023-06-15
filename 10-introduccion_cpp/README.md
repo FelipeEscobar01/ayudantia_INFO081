@@ -24,7 +24,11 @@ Evalue que sucede para cada operacion almacenando en ambos tipos.
 #### Archivo para comprobar resultados arribita _**(type_conversion-explicacion.cpp)**_.
 ---
 
-## 🍓 **Ejercicio 3**
+## 🍓 **Ejercicio 4**
+
+Sume todos los digitos impares de un numero. Sin transformar a string el numero.
+
+## 🍓 **Ejercicio 4**
 
 Hacer una calculadora. Tiene que pedirse al usuario una distincion de si se quiere hacer una operacion entre flotantes o no.
 
@@ -49,7 +53,6 @@ Resultado: 10
 ---->
 ```
 
-_Una calculadora no se apaga despues de hacer solo una operacion, aunque por lo menos esta no permite acumular los resultados, jejeje_.
+#### _Una calculadora no se apaga despues de hacer solo una operacion, aunque por lo menos esta no permite acumular los resultados, jejeje_.
 
 ### **Desafio: que acumule resultados y se limpie el "buffer" a decision del usuario.**
-
