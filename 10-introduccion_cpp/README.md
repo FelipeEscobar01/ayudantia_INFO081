@@ -3,13 +3,9 @@
 
 Invertir una string en el lugar.
 
-<br/>
-
 ## 🍓 **Ejercicio 2**
 
 Imprimir la secuencia de fibonnacci, hasta cierto rango.
-
-<br/>
 
 ## 🍓 **Preguntas**
 
@@ -27,8 +23,6 @@ Evalue que sucede para cada operacion almacenando en ambos tipos.
 ---
 #### Archivo para comprobar resultados arribita _**(type_conversion-explicacion.cpp)**_.
 ---
-
-<br/>
 
 ## 🍓 **Ejercicio 3**
 
@@ -55,8 +49,7 @@ Resultado: 10
 ---->
 ```
 
-#### _Una calculadora no se apaga despues de hacer solo una operacion, aunque por lo menos esta no permite acumular los resultados, jejeje_.
+_Una calculadora no se apaga despues de hacer solo una operacion, aunque por lo menos esta no permite acumular los resultados, jejeje_.
 
 ### **Desafio: que acumule resultados y se limpie el "buffer" a decision del usuario.**
 
-<br/>
