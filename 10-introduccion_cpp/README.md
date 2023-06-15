@@ -7,6 +7,10 @@ Invertir una string en el lugar.
 
 Imprimir la secuencia de fibonnacci, hasta cierto rango.
 
+## 🍓 **Ejercicio 3**
+
+Sume todos los digitos impares de un numero. Sin transformar a string el numero.
+
 ## 🍓 **Preguntas**
 
 ¿Que resultado daran las siguientes operaciones?
@@ -23,10 +27,6 @@ Evalue que sucede para cada operacion almacenando en ambos tipos.
 ---
 #### Archivo para comprobar resultados arribita _**(type_conversion-explicacion.cpp)**_.
 ---
-
-## 🍓 **Ejercicio 3**
-
-Sume todos los digitos impares de un numero. Sin transformar a string el numero.
 
 ## 🍓 **Ejercicio 4**
 
