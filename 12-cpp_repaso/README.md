@@ -99,6 +99,8 @@ Los numeros pares que cumplen la condicion son:
 12 14 16 18 22 24 26 28 32 34 36 38 42 44 46 48 52 54 56 58 62 64 66 68 72 74 76 78 82 84 86 88 
 ```
 
+---
+
 # **Plantillas propuestas**
 
 **ejercicio1.cpp**
