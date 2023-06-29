@@ -98,3 +98,100 @@ Valor para 'd'?
 Los numeros pares que cumplen la condicion son:
 12 14 16 18 22 24 26 28 32 34 36 38 42 44 46 48 52 54 56 58 62 64 66 68 72 74 76 78 82 84 86 88 
 ```
+
+# **Plantillas propuestas**
+
+**ejercicio1.cpp**
+```
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int contarDigitos();
+bool esVocal();
+int contarVocales();
+
+int main() {
+    return EXIT_SUCCESS;
+}
+
+int contarDigitos() {
+    return -1;
+}
+
+bool esVocal() {
+    return false;
+}
+
+int contarVocales() {
+    return -1;
+}
+```
+
+**ejercicio2.cpp**
+```
+#include <iostream>
+
+using namespace std;
+
+int borraMaximo();
+void muestraArreglo();
+
+int main() {
+    return EXIT_SUCCESS;
+}
+
+// ... Que recibe un arreglo de enteros y un entero con el largo del arreglo, 
+// encuentra el mayor valor en él, retorna ese valor y en el arreglo reemplaza 
+// el valor máximo encontrado por cero (0).
+int borraMaximo() {
+    return -1;
+}
+
+// ... Que recibe un arreglo de enteros y un entero con el largo del arreglo, y 
+// lo despliega por pantalla.
+void muestraArreglo() {
+}
+```
+
+**ejercicio3.cpp**
+```
+#include <iostream>
+
+using namespace std;
+
+void Imhotepsort();
+int posicionMinimo();
+void muestra();
+
+int main() {
+    return EXIT_SUCCESS;
+}
+
+void Imhotepsort() {
+}
+
+int posicionMinimo() {
+    return -1;
+}
+
+void muestra() {
+}
+```
+
+**ejercicio4.cpp**
+```
+#include <iostream>
+
+using namespace std;
+
+void secuenciaPares();
+
+int main() {
+    return EXIT_SUCCESS;
+}
+
+void secuenciaPares() {
+}
+```
